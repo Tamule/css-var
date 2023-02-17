@@ -1,0 +1,18 @@
+
+        :root {
+             --primary-color: rgb(255, 192, 224) ;
+             --h1-heading-color:rgb(109, 205, 250);
+             --p-color:rgb(110, 102, 102);
+             --h1-size: font-size: 35px;
+        }
+        body {
+            background-color:var(--primary-color) ;
+        }
+
+        h1 {
+            color: var(--h1-heading-color);
+            size: var(--h1-size);
+        }
+        p {
+            color:var(--p-color);
+        }
